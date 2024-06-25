@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+        <div class="container-fluid" id="main_container">
+            <div class="row d-flex align-items-center justify-content-center main_row">
+                <div class="col-12 col-sm-10 col-md-10 inner_row">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 d-flex justify-content-center text-start flex-column">
+                            <h2 class="fs-1 fw-normal">Let's grow <br><span class="fw-medium text_color">together</span></h2>
+                            <p class="fs-5">Partner with us, <span><a href="mailto:contact@medonomy.com" class="text-decoration-none fw-medium text-dark">contact@medonomy.com</a></span></p>
+                            <img src="./left_image.png" alt="hand" class="img-fluid hand_img">
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <ul class="nav nav-tabs mt-3 d-flex align-items-center" id="myTab" role="tablist">
+                                <p class="mb-0">I am &nbsp;&nbsp;</p>
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="login" data-toggle="tab" href="#login_form" role="tab" aria-controls="login" aria-selected="true">BRAND</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="signup" data-toggle="tab" href="#signup_form" role="tab" aria-controls="signup" aria-selected="false">DOCTOR</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="login_form" role="tabpanel" aria-labelledby="login">
+                                    <div class="fancyformcontainer mt-4">
+                                        <form>
+                                           <div class="mb-3">
+                                                <label class="form_label" for="name">Your Name*</label>
+                                                <input type="text" class="form-control shadow-none rounded-0" id="name" required>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form_label" for="phone">Mobile Number*</label>
+                                                <input type="tel" class="form-control shadow-none rounded-0" id="phone" required>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form_label" for="email">Email*</label>
+                                                <input type="email" class="form-control shadow-none rounded-0" id="email" required>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form_label" for="website">Website</label>
+                                                <input type="url" class="form-control shadow-none rounded-0" id="website">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form_label" for="designation">Designation</label>
+                                                <input type="text" class="form-control shadow-none rounded-0" id="esignation">
+                                            </div>
+                                            <div class="row mb-3 g-3">
+                                                <p class="form_label">Interested For</p>
+                                                <div class="col">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input shadow-none rounded-0" type="checkbox" value="" id="HCP">
+                                                        <label class="form-check-label form_label" for="HCP">
+                                                          HCP Influencer Campaign
+                                                        </label>
+                                                      </div>
+                                                      <div class="form-check">
+                                                        <input class="form-check-input shadow-none rounded-0" type="checkbox" value="" id="Feedback">
+                                                        <label class="form-check-label form_label" for="Feedback">
+                                                          HCP Product Feedback
+                                                        </label>
+                                                      </div>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input shadow-none rounded-0" type="checkbox" value="" id="advisory">
+                                                        <label class="form-check-label form_label" for="advisory">
+                                                          Advisory Boards
+                                                        </label>
+                                                      </div>
+                                                      <div class="form-check">
+                                                        <input class="form-check-input shadow-none rounded-0" type="checkbox" value="" id="Omni">
+                                                        <label class="form-check-label form_label" for="Omni">
+                                                          Omni Channel Sales
+                                                        </label>
+                                                      </div>
+                                                </div>
+                                              </div>
+                                              <div class="mb-4">
+                                                <button type="submit" class="btn formsubmitbtn">Submit</button>
+                                            </div>
+                                          </form>
+                                     </div>
+                                   </div>
+                                <div class="tab-pane fade" id="signup_form" role="tabpanel" aria-labelledby="signup">
+                                    <div class="fancyformcontainer mt-4">
+                                        <form>
+                                            <div class="mb-3">
+                                                 <label class="form_label" for="name">Your Name*</label>
+                                                 <input type="text" class="form-control shadow-none rounded-0" id="name" required>
+                                             </div>
+                                             <div class="mb-3">
+                                                 <label class="form_label" for="phone">Mobile Number*</label>
+                                                 <input type="tel" class="form-control shadow-none rounded-0" id="phone" required>
+                                             </div>
+
+
+                                             <div class="row mb-3">
+                                                <div class="col">
+                                                    <label class="form_label" for="email">Email*</label>
+                                                    <input type="email" class="form-control shadow-none rounded-0" id="email" required>
+                                                </div>
+                                                <div class="col">
+                                                    <label class="form_label" for="city">City</label>
+                                                 <input type="text" class="form-control shadow-none rounded-0" id="city">
+                                                </div>
+                                              </div>
+
+                                              <div class="row mb-3">
+                                                <div class="col">
+                                                    <label class="form_label" for="speciality">Speciality*</label>
+                                                    <input type="text" class="form-control shadow-none rounded-0" id="speciality" required>
+                                                </div>
+                                                <div class="col">
+                                                    <label class="form_label" for="gender">Gender*</label>
+                                                 <input type="text" class="form-control shadow-none rounded-0" id="gender" required>
+                                                </div>
+                                              </div>
+
+                                              <div class="row mb-3">
+                                                <div class="col">
+                                                    <label class="form_label" for="profile">Online Profile Link</label>
+                                                    <input type="url" class="form-control shadow-none rounded-0" id="profile">
+                                                </div>
+                                                <div class="col">
+                                                    <label class="form_label" for="medical">Medical Registration Number</label>
+                                                 <input type="number" class="form-control shadow-none rounded-0" id="medical" required>
+                                                </div>
+                                              </div>
+                                             
+                                             <div class="row mb-3 g-3">
+                                                <p class="form_label">Interested For</p>
+                                                 <div class="col">
+                                                     <div class="form-check">
+                                                         <input class="form-check-input shadow-none rounded-0" type="checkbox" value="" id="Paid">
+                                                         <label class="form-check-label form_label" for="Paid">
+                                                           Paid Influencer Campaign
+                                                         </label>
+                                                       </div>
+                                                       <div class="form-check">
+                                                         <input class="form-check-input shadow-none rounded-0" type="checkbox" value="" id="sponsored">
+                                                         <label class="form-check-label form_label" for="sponsored">
+                                                           Sponsored Partnerships
+                                                         </label>
+                                                       </div>
+                                                 </div>
+                                                 <div class="col">
+                                                     <div class="form-check">
+                                                         <input class="form-check-input shadow-none rounded-0" type="checkbox" value="" id="buy">
+                                                         <label class="form-check-label form_label" for="buy">
+                                                          Try Before Buy
+                                                         </label>
+                                                       </div>
+                                                       <div class="form-check">
+                                                         <input class="form-check-input shadow-none rounded-0" type="checkbox" value="" id="margin">
+                                                         <label class="form-check-label form_label" for="margin">
+                                                           High Margin Products
+                                                         </label>
+                                                       </div>
+                                                 </div>
+                                               </div>
+                                               <div class="mb-4">
+                                                 <button type="submit" class="btn formsubmitbtn">Submit</button>
+                                             </div>
+                                           </form>
+                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.0.8/popper.min.js"></script>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+</body>
+</html>
