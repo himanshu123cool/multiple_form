@@ -6,7 +6,7 @@
 
 
 #main_container{
-    padding: 30px 20px;
+    padding: 30px 15px;
     background: linear-gradient(90deg, rgba(248,235,219,1) 0%, rgba(249,251,244,1) 100%);
 }
 
@@ -23,7 +23,7 @@
 }
 
 .nav-item{
-    margin: 0 10px;
+    margin: 0 5px;
 }
 
 .nav-tabs{
@@ -37,7 +37,7 @@
 
 .nav-link{
     background-color: #fff;
-    padding: 6px 30px;
+    padding: 6px 25px;
     border-radius: 23px!important;
     border-radius: 23px;
     border: 1px solid #000!important;
